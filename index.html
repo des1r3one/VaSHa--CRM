@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker - Управление проектами и задачами</title>
+    <meta name="description" content="Fitness Tracker - приложение для управления проектами, задачами и командой">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/40" alt="Логотип Fitness Tracker" class="logo-img">
+                <span class="logo-text">Fitness Tracker</span>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#features" class="nav-link">Возможности</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Тарифы</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="/login" class="btn btn-secondary">Войти</a>
+                <a href="/register" class="btn btn-primary">Регистрация</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Управляйте проектами и задачами эффективно</h1>
+                <p class="hero-description">
+                    Fitness Tracker помогает командам организовать работу, отслеживать прогресс и достигать целей быстрее.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/register" class="btn btn-primary btn-large">Начать бесплатно</a>
+                    <a href="#demo" class="btn btn-outline btn-large">Посмотреть демо</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="Интерфейс приложения Fitness Tracker" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Возможности платформы</h2>
+            <p class="section-description">Все необходимые инструменты для эффективной работы команды</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="https://via.placeholder.com/50" alt="Управление проектами">
+                    </div>
+                    <h3 class="feature-title">Управление проектами</h3>
+                    <p class="feature-description">Создавайте проекты, добавляйте участников и отслеживайте прогресс в режиме реального времени.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="https://via.placeholder.com/50" alt="Управление задачами">
+                    </div>
+                    <h3 class="feature-title">Управление задачами</h3>
+                    <p class="feature-description">Разбивайте проекты на задачи, назначайте исполнителей и устанавливайте сроки выполнения.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="https://via.placeholder.com/50" alt="Управление командой">
+                    </div>
+                    <h3 class="feature-title">Управление командой</h3>
+                    <p class="feature-description">Добавляйте сотрудников, распределяйте роли и контролируйте загруженность команды.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="https://via.placeholder.com/50" alt="Календарь событий">
+                    </div>
+                    <h3 class="feature-title">Календарь событий</h3>
+                    <p class="feature-description">Планируйте встречи, дедлайны и важные события в удобном календаре.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">О нашей платформе</h2>
+                <p class="about-description">
+                    Fitness Tracker — это современное решение для управления проектами и задачами, разработанное с учетом потребностей команд любого размера. Наша платформа помогает организовать рабочий процесс, улучшить коммуникацию и повысить продуктивность.
+                </p>
+                <p class="about-description">
+                    Мы постоянно развиваем наш продукт, добавляя новые функции и улучшая существующие на основе обратной связи от пользователей.
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10,000+</span>
+                        <span class="stat-label">Пользователей</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5,000+</span>
+                        <span class="stat-label">Проектов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Удовлетворенность</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/500x400" alt="Команда Fitness Tracker" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Тарифные планы</h2>
+            <p class="section-description">Выберите подходящий тариф для вашей команды</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Базовый</h3>
+                        <div class="pricing-price">
+                            <span class="price">0₽</span>
+                            <span class="period">/ месяц</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>До 5 пользователей</li>
+                        <li>До 3 проектов</li>
+                        <li>Базовые функции управления задачами</li>
+                        <li>Календарь событий</li>
+                        <li>Поддержка по email</li>
+                    </ul>
+                    <a href="/register" class="btn btn-outline btn-full">Начать бесплатно</a>
+                </div>
+                
+                <div class="pricing-card pricing-card-popular">
+                    <div class="popular-badge">Популярный</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Команда</h3>
+                        <div class="pricing-price">
+                            <span class="price">1 500₽</span>
+                            <span class="period">/ месяц</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>До 20 пользователей</li>
+                        <li>Неограниченное количество проектов</li>
+                        <li>Расширенные функции управления задачами</li>
+                        <li>Календарь событий</li>
+                        <li>Приоритетная поддержка</li>
+                        <li>Аналитика и отчеты</li>
+                    </ul>
+                    <a href="/register" class="btn btn-primary btn-full">Выбрать тариф</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Бизнес</h3>
+                        <div class="pricing-price">
+                            <span class="price">3 500₽</span>
+                            <span class="period">/ месяц</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Неограниченное количество пользователей</li>
+                        <li>Неограниченное количество проектов</li>
+                        <li>Все функции управления задачами</li>
+                        <li>Расширенный календарь событий</li>
+                        <li>Приоритетная поддержка 24/7</li>
+                        <li>Расширенная аналитика и отчеты</li>
+                        <li>API для интеграции</li>
+                    </ul>
+                    <a href="/register" class="btn btn-outline btn-full">Выбрать тариф</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <p class="section-description">Остались вопросы? Напишите нам, и мы ответим в ближайшее время</p>
+            
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Отправить</button>
+                </form>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <img src="https://via.placeholder.com/24" alt="Email">
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@fitnesstracker.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <img src="https://via.placeholder.com/24" alt="Телефон">
+                        </div>
+                        <div class="contact-text">
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <img src="https://via.placeholder.com/24" alt="Адрес">
+                        </div>
+                        <div class="contact-text">
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. Примерная, д. 123</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="https://via.placeholder.com/40" alt="Логотип Fitness Tracker" class="logo-img">
+                    <span class="logo-text">Fitness Tracker</span>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-nav-column">
+                        <h3 class="footer-nav-title">Продукт</h3>
+                        <ul class="footer-nav-list">
+                            <li><a href="#features">Возможности</a></li>
+                            <li><a href="#pricing">Тарифы</a></li>
+                            <li><a href="#">Безопасность</a></li>
+                            <li><a href="#">Обновления</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-column">
+                        <h3 class="footer-nav-title">Компания</h3>
+                        <ul class="footer-nav-list">
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Карьера</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-column">
+                        <h3 class="footer-nav-title">Ресурсы</h3>
+                        <ul class="footer-nav-list">
+                            <li><a href="#">Документация</a></li>
+                            <li><a href="#">Руководства</a></li>
+                            <li><a href="#">Поддержка</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-column">
+                        <h3 class="footer-nav-title">Правовая информация</h3>
+                        <ul class="footer-nav-list">
+                            <li><a href="#">Условия использования</a></li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                            <li><a href="#">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2023 Fitness Tracker. Все права защищены.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <img src="https://via.placeholder.com/24" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <img src="https://via.placeholder.com/24" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <img src="https://via.placeholder.com/24" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <img src="https://via.placeholder.com/24" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Простой скрипт для мобильного меню
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.main-nav').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
